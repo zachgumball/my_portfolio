@@ -67,9 +67,17 @@ const Hero = () => {
       </motion.p>
 
       {/* Tombol CTA */}
-      <motion.a href="#projects" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6, duration: 0.8 }} className="mt-6 bg-blue-600 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-700 transition-all duration-300 hover:scale-105">
-        Lihat Proyek
-      </motion.a>
+      <motion.a
+  href="/HERI_CV.pdf"
+  download="CV_Heri.pdf"
+  initial={{ opacity: 0, y: 10 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.6, duration: 0.8 }}
+  className="mt-6 bg-indigo-600 text-white px-6 py-3 rounded-full shadow-md hover:bg-indigo-700 transition-all duration-300 hover:scale-105"
+>
+  Unduh CV
+</motion.a>
+
     </section>
   );
 };
