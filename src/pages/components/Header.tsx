@@ -39,7 +39,7 @@ const Header = () => {
     >
       <div className="max-w-5xl mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
-        <h1 className="text-xl font-bold text-gray-800">Heri's Portfolio</h1>
+        <h1 className="text-xl font-bold text-gray-800">Heri&apos;s Portfolio</h1>
 
         {/* Navigation */}
         <nav>
