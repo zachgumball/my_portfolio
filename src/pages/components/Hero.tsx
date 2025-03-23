@@ -83,6 +83,7 @@ const Hero = () => {
           alt="Foto Profil Heri"
           width={150}
           height={150}
+          priority
           className="rounded-full border-4 border-accent shadow-lg hover:scale-105 transition-transform duration-300"
         />
         <div className="absolute inset-0 rounded-full border-4 border-blue-400 opacity-50 animate-pulse"></div>

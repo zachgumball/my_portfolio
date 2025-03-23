@@ -5,12 +5,12 @@ const projects = [
   { 
     title: "Website Yayasan Tunas Insan Mulia", 
     description: "Website resmi yayasan untuk memberikan informasi dan donasi secara online.", 
-    link: "https://github.com/zachgumball/kape" // Ganti dengan link GitHub proyek asli
+    link: "https://github.com/zachgumball/kape"
   },
   { 
     title: "Flutter AR Learning App", 
     description: "Aplikasi pembelajaran berbasis Flutter yang dilengkapi teknologi Augmented Reality (AR) untuk pengalaman belajar yang lebih interaktif.", 
-    link: "https://github.com/zachgumball/my_notes" // Ganti dengan link GitHub proyek asli
+    link: "https://github.com/zachgumball/my_notes"
   },
 ];
 
@@ -22,7 +22,7 @@ const cardVariants = {
 const Projects = () => {
   return (
     <section id="projects" className="max-w-5xl mx-auto py-16 px-6">
-      <h2 className="text-3xl font-bold text-gray-800 text-center">Proyek Saya</h2>
+      <h2 className="text-3xl font-bold text-gray-800 text-center">Projects</h2>
       <div className="mt-8 grid md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
           <motion.div
